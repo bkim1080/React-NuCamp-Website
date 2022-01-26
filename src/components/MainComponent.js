@@ -30,11 +30,7 @@ class Main extends Component {
 					onClick={(campsiteId) => this.onCampsiteSelect(campsiteId)}
 				/>
 				<CampsiteInfo
-					campsite={
-						this.state.campsites.filter(
-							(campsite) => campsite.id === this.state.selectedCampsite
-						)[0]
-					}
+					campsite={this.state.campsites.filter((campsite) => campsite.id === this.state.selectedCampsite)[0]}
 				/>
 			</div>
 		);
