@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Hosted Website (via Netlify)
 
-[Nucamp Wesbite](https://upbeat-chandrasekhar-1e2190.netlify.app)
+[Nucamp Website](https://upbeat-chandrasekhar-1e2190.netlify.app)
 
 ## Available Scripts
 
