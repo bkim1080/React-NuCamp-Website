@@ -17,6 +17,12 @@ function Home(props) {
 	return (
 		<div className="container">
 			<div className="row">
+				<div className="col mt-3">
+					<h2>Featured</h2>
+					<hr />
+				</div>
+			</div>
+			<div className="row">
 				<div className="col-md m-1">
 					<RenderCard item={props.campsite} />
 				</div>
