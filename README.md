@@ -20,9 +20,9 @@
 
 ## About The Project
 
-This is a fictional campsite reservation website. Features include a collapsible navigation menu, a login modal, and a contact form with client-side validation. The layout is responsive for desktop and mobile devices.
+This is a fictional campsite reservation website called NuCamp. Features include a collapsible navigation menu, a login modal, and a contact form with client-side validation. The layout is responsive for desktop and mobile devices.
 
-Website Link (hosted via Netlify): [NuCamp Website](https://angry-swartz-677ade.netlify.app/home)
+Website Link (hosted via Netlify): [NuCamp Website](https://angry-swartz-677ade.netlify.app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
