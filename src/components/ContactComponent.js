@@ -21,9 +21,6 @@ class Contact extends Component {
 				email: false,
 			},
 		};
-
-		// this.handleInputChange = this.handleInputChange.bind(this);
-		// this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	validate(firstName, lastName, phoneNum, email) {
@@ -68,7 +65,6 @@ class Contact extends Component {
 		});
 	};
 
-	// handleInputChange(event) {
 	handleInputChange = (event) => {
 		const target = event.target;
 		const name = target.name;
@@ -79,7 +75,6 @@ class Contact extends Component {
 		});
 	};
 
-	// handleSubmit(event) {
 	handleSubmit = (event) => {
 		console.log("Current state is: " + JSON.stringify(this.state));
 		alert("Current state is: " + JSON.stringify(this.state));

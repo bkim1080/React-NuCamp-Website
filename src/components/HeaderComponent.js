@@ -22,32 +22,28 @@ class Header extends Component {
 	constructor(props) {
 		super(props);
 
-		// this.toggleNav = this.toggleNav.bind(this);
-		// this.toggleModal = this.toggleModal.bind(this);
-		// this.handleLogin = this.handleLogin.bind(this);
 		this.state = {
 			isNavOpen: false,
 			isModalOpen: false,
 		};
 	}
 
-	// toggleNav() {
 	toggleNav = () => {
 		this.setState({
 			isNavOpen: !this.state.isNavOpen,
 		});
 	};
 
-	// toggleModal() {
 	toggleModal = () => {
 		this.setState({
 			isModalOpen: !this.state.isModalOpen,
 		});
 	};
 
-	// handleLogin(event) {
 	handleLogin = (event) => {
-		alert(`Username: ${this.username.value} Password: ${this.password.value} Remember: ${this.remember.checked}`);
+		alert(`Username: ${this.username.value} 
+      Password: ${this.password.value} 
+      Remember: ${this.remember.checked}`);
 		this.toggleModal();
 		event.preventDefault();
 	};
@@ -106,7 +102,6 @@ class Header extends Component {
 				<Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
 					<ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
 					<ModalBody>
-						{" "}
 						<Form onSubmit={this.handleLogin}>
 							<FormGroup>
 								<Label htmlFor="username">Username</Label>
@@ -136,7 +131,7 @@ class Header extends Component {
 									Remember me
 								</Label>
 							</FormGroup>
-							<Button type="submit" value="submit" color="primary">
+							<Button type="submit" value="submit" color="primary" className="mt-3">
 								Login
 							</Button>
 						</Form>
